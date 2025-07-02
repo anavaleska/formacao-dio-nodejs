@@ -10,8 +10,8 @@
   <h3>💻 Módulos do Curso</h3>
   <ol >
     <li>Fundamentos de Programação com Node</li>
-    <li>Trabalhando com Node Modules (Em estudo)</li>
-    <li>Gerenciando Pacotes com Node.js com NPM (Ainda será estudado)</li>
+    <li>Trabalhando com Node Modules</li>
+    <li>Gerenciando Pacotes com Node.js com NPM (Em estudo)</li>
     <li>Typescript para Devs Node.js (Ainda será estudado)</li>
     <li>Introdução a Aplicações Web (Ainda será estudado)</li>
     <li>Criando APIs com Node.js (Ainda será estudado)</li>
@@ -27,6 +27,10 @@
     <li>
       <h4>Simulador de Corridas do Mario Kart com Node.js</h4>
       <p>Projeto construído com o conhecimento aprendido no módulo <strong>Fundamentos de Programação com Node</strong></p>
+    </li>
+    <li>
+      <h4>Carrinho de Compras da Shopee com Node.js</h4>
+      <p>Projeto construído com o conhecimento aprendido no módulo <strong>Trabalhando com Node Modules</strong></p>
     </li>
   </ol>
 </div>
