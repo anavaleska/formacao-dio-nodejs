@@ -1,101 +1,57 @@
 <!--START_SECTION:header-->
 <div align="center">
   <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
     <h1>Recriando a lógica do carrinho de compras da Shopee</h1>
   </p>
 </div>
 <!--END_SECTION:header-->
-
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
-
-</p>
-
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Felipe Aguiar</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
-
-<br/>
 <br/>
 
-## 💻 Descrição Do Projeto
+<h2>💻 Descrição Do Projeto</h2>
 
-Vamos criar a lógica por trás do carrinho de compras da shopee, aonde o carrinho armazene itens e faça o cálculo total e de sub-itens automaticamente.
+<p>O desafio foi replicar a lógica demonstrada nas videoaulas, onde se recriou a lógica utilizada no carrinho de compras da Shopee, com funções de armazenamento de itens, cálculo total e cálculo de sub-itens automaticamente.</p>
+<br/>
+<h2>📚 Pré-requisitos de Habilidades e Níveis de Conhecimento</h2>
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+<p>Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:</p>
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+<h4 style="margin-bottom: 5px">[habilidades ou conhecimentos prévios necessários]</h4>
 
-- [habilidades ou conhecimentos prévios necessários]
+<ul style="padding-left: 15px">
+  <li>Javascript | Intermediário</li>
+  <li>Node | Básico</li>
+  <li>Modularização | Básica</li>
+</ul>
+<h4 style="margin-bottom: 5px">[Outros pré-requisitos]</h4>
+<ul style="padding-left: 15px">
+  <li>Lógica de Programação | Intermediário</li>
+</ul>
 
-  - Javascript | Intermediário
-  - Node | Básico
-  - Modularização | Básica
+<br/>
+<h2>🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo</h2>
 
-- [Outros pré-requisitos]
+<ul style="padding-left: 15px">
+  <li>Modularização | Intermediária</li>
+</ul>
 
-  - Lógica de Programação | Intermediário
+<br/>
+<h2>🎯 Objetivos e Resultados Esperados</h2>
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+<h4>Após a conclusão do curso/projeto, os estudantes estarão aptos a:</h4>
 
-- Modularização | Intermediária
-
-## 🎯 Objetivos e Resultados Esperados
-
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
-
-- Modularizar projetos com maior propriedade
-- Como organizar pensamento lógico e funcional
-- Base para organizar projetos
+<ul style="padding-left: 15px">
+  <li>JModularizar projetos com maior propriedade</li>
+  <li>Como organizar pensamento lógico e funcional</li>
+  <li>Base para organizar projetos</li>
+</ul>
 
 <!--START_SECTION:footer-->
-
-<br />
-<br />
-
+<br/>
+<br/>
 <p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
+  ⌨️ Made by Ana Valeska in Dio's Course
 </p>
+<br />
+<br />
+
+<!--END_SECTION:footer-->

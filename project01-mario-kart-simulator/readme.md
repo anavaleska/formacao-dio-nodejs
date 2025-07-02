@@ -112,3 +112,14 @@
 
 <input type="checkbox" id="pistas-2-3-item-extra-2" />
 <label for="pistas-2-3-item-extra-2">O vencedor pode ganhar um turbo 🚀 (+1 ponto) aleatoriamente.</label>
+
+<!--START_SECTION:footer-->
+<br/>
+<br/>
+<p align="center">
+  ⌨️ Made by Ana Valeska in Dio's Course
+</p>
+<br />
+<br />
+
+<!--END_SECTION:footer-->
