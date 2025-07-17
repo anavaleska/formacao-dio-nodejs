@@ -32,6 +32,10 @@
       <h4>Carrinho de Compras da Shopee com Node.js</h4>
       <p>Projeto construído com o conhecimento aprendido no módulo <strong>Trabalhando com Node Modules</strong></p>
     </li>
+    <li>
+      <h4>Criando um Gerador de QR Codes para E-commerces com Node.js</h4>
+      <p>Projeto construído com o conhecimento aprendido no módulo <strong>Gerenciando Pacotes com Node.js com NPM</strong></p>
+    </li>
   </ol>
 </div>
 <!--START_SECTION:footer-->
