@@ -1,33 +1,12 @@
 import { IncomingMessage, ServerResponse } from "http";
+import { listEpisodeService } from "../services/list-episodes-service";
 
 export const getListEpisodesController = async (
   request: IncomingMessage,
   response: ServerResponse
 ) => {
+  const content = await listEpisodeService();
+
   response.writeHead(200, { "Content-Type": "application/json" });
-  response.end(
-    JSON.stringify([
-      {
-        podcastName: "ICONIC Network",
-        episode: "Como Evoluir Sua Arte Mais Rapidamente",
-        videoId: "zi1-C0HTtrc&t=6s",
-        categories: ["arte", "Trabalho", "desenho", "ilustração"],
-      },
-      {
-        podcastName: "ICONIC Network",
-        episode:
-          "ICONIC Live - Como Tropeçar e Levantar: A Arte de Não Desistir",
-        videoId: "3tNDqWvqjao",
-        categories: [
-          "arte",
-          "Trabalho",
-          "desenho",
-          "ilustração",
-          "saúde",
-          "mentalidade",
-          "esforço",
-        ],
-      },
-    ])
-  );
+  response.end(JSON.stringify(content));
 };

@@ -11,7 +11,7 @@ Podcasts feitos em vídeo
 ### Features
 
 - Listar os episódios de podcasts em sessões de categorias
-  - [saúde mental, mentalidade, arte, Trabalho, desenho, ilustração, esforço]
+  - [saúde, mentalidade, arte, Trabalho, desenho, ilustração, esforço]
 - Filtrar episódios por nome de podcast
 
 ## Como
@@ -22,16 +22,14 @@ Podcasts feitos em vídeo
 
 ### Como vou implementar:
 
-GET: retorna lista de episódios.
-
-response:
+Vou retornar em uma api rest (json) o nome do podcast, nome do episódio, imagem de capa e link.
 
 ```js
 [
   {
     podcastName: "ICONIC Network",
     episode: "Como Evoluir Sua Arte Mais Rapidamente",
-    videoId: "zi1-C0HTtrc&t=6s",
+    videoId: "zi1-C0HTtrc",
     cover: "https://i.ytimg.com/vi/zi1-C0HTtrc/maxresdefault.jpg",
     link: "https://www.youtube.com/watch?v=zi1-C0HTtrc&t=6s",
     categories: ["arte", "Trabalho", "desenho", "ilustração"],
