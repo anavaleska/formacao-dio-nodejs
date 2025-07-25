@@ -7,8 +7,6 @@ import {
 const server = http.createServer(
   async (request: http.IncomingMessage, response: http.ServerResponse) => {
     const [baseUrl, queryString] = request.url?.split("?") ?? ["", ""];
-    console.log("queryString ", queryString);
-    console.log("baseUrl ", baseUrl);
 
     if (request.method === "GET" && baseUrl === "/api/list") {
       await getListEpisodesController(request, response);
