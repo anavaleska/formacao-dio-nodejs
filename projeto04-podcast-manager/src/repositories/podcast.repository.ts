@@ -1,12 +1,12 @@
 import fs from "fs";
 import path from "path";
-import type { PodcastModel } from "../models/podcast.model";
+import type { Podcast } from "../interfaces/podcast.interface";
 
-const pathData = path.join(__dirname, "../repositories/podcasts.json");
+const pathData = path.join(__dirname, "../repositories/podcasts.mock.json");
 
-export const repositoryPodcast = async (
+export const findPodcasts = async (
   podcastName?: string
-): Promise<PodcastModel[]> => {
+): Promise<Podcast[]> => {
   const language = "utf-8";
 
   const rawData = fs.readFileSync(pathData, language);
@@ -14,7 +14,7 @@ export const repositoryPodcast = async (
 
   if (podcastName) {
     jsonFile = jsonFile.filter(
-      (podcast: PodcastModel) => podcast.podcastName === podcastName
+      (podcast: Podcast) => podcast.podcastName === podcastName
     );
   }
   return jsonFile;

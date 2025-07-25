@@ -1,4 +1,4 @@
 export enum Routes {
-  LIST = "/api/list",
-  EPISODE = "/api/episodes",
+  LIST_ALL_PODCASTS = "/api/podcasts",
+  FILTER_EPISODES = "/api/podcasts/episodes",
 }

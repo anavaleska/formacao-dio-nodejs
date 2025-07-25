@@ -10,15 +10,13 @@ Podcasts feitos em vídeo
 
 ### Features
 
-- Listar os episódios de podcasts em sessões de categorias
-  - [saúde, mentalidade, arte, Trabalho, desenho, ilustração, esforço]
 - Filtrar episódios por nome de podcast
 
 ## Como
 
 #### Feature:
 
-- Listar os episódios de podcasts em sessões de categorias
+- Listar todos os podcasts.
 
 ### Como vou implementar:
 

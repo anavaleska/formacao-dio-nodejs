@@ -1,22 +1,25 @@
 import * as http from "http";
 import {
   getFilterEpisodes,
-  getListEpisodesController,
-} from "./controllers/podcasts.controller";
+  listEpisodes,
+} from "./controllers/episodes.controller";
 import { Routes } from "./routes/routes";
-import { HttpMethod } from "./utils/http-methods";
+import { HttpMethod } from "./constants/http/http-methods.enum";
 
 export const app = async (
   request: http.IncomingMessage,
   response: http.ServerResponse
 ) => {
-  const [baseUrl, queryString] = request.url?.split("?") ?? ["", ""];
+  const baseUrl = request.url?.split("?")[0];
 
-  if (request.method === HttpMethod.GET && baseUrl === Routes.LIST) {
-    await getListEpisodesController(request, response);
+  if (
+    request.method === HttpMethod.GET &&
+    baseUrl === Routes.LIST_ALL_PODCASTS
+  ) {
+    await listEpisodes(request, response);
   }
 
-  if (request.method === HttpMethod.GET && baseUrl === Routes.EPISODE) {
+  if (request.method === HttpMethod.GET && baseUrl === Routes.FILTER_EPISODES) {
     await getFilterEpisodes(request, response);
   }
 };
