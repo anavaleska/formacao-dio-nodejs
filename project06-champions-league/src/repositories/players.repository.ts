@@ -1,7 +1,4 @@
-interface Player {
-  id: number;
-  name: string;
-}
+import type { Player } from "../interfaces/player.interface";
 
 const database: Player[] = [
   { id: 1, name: "Messi" },
