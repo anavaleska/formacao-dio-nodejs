@@ -1,8 +1,10 @@
+import type { Player } from "../interfaces/player.interface";
 import {
+  createPlayer,
   findAllPlayers,
   findPlayerById,
-} from "../repositories/players.repository";
-import { notFound, ok } from "../utils/http-helper";
+} from "../repositories/player.repository";
+import { badRequest, created, notFound, ok } from "../utils/http-helper";
 
 export const getAllPlayersService = async () => {
   const data = await findAllPlayers();
@@ -24,4 +26,12 @@ export const getPlayerByIdService = async (id: number) => {
     });
   }
   return await ok(data);
+};
+
+export const createPlayerService = async (player: Player) => {
+  if (!player || Object.keys(player).length === 0) {
+    return badRequest(new Error("Player data is missing."));
+  }
+  await createPlayer(player);
+  return created();
 };

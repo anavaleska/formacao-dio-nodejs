@@ -1,5 +1,6 @@
 import { Router } from "express";
 import {
+  createPlayer,
   getAllPlayers,
   getPlayerById,
 } from "../controllers/players.controller";
@@ -8,3 +9,4 @@ export const router = Router();
 
 router.get("/players", getAllPlayers);
 router.get("/players/:id", getPlayerById);
+router.post("/players", createPlayer);
