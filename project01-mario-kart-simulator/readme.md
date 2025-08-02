@@ -116,9 +116,11 @@
 <!--START_SECTION:footer-->
 <br/>
 <br/>
-<p align="center">
-  ⌨️ Made by Ana Valeska in Dio's Course
-</p>
+<section align="center">
+  <p>
+    ⌨️ Made by Ana Valeska in Dio's Course
+  </p>
+</section>
 <br />
 <br />
 

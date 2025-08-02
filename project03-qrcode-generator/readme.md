@@ -1,9 +1,7 @@
 <!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <h1>Gerador de QR Code para e-commerce</h1>
-  </p>
-</div>
+<section align="center">
+  <h1>Gerador de QR Code para e-commerce</h1>
+</section>
 <!--END_SECTION:header-->
 <br/>
 
@@ -44,9 +42,11 @@
 <!--START_SECTION:footer-->
 <br/>
 <br/>
-<p align="center">
-  ⌨️ Made by Ana Valeska in Dio's Course
-</p>
+<section align="center">
+  <p>
+    ⌨️ Made by Ana Valeska in Dio's Course
+  </p>
+</section>
 <br />
 <br />
 

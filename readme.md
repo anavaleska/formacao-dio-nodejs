@@ -1,7 +1,6 @@
 <!--START_SECTION:header-->
 <div align="center">
   <h1>Participação na Formação: NodeJS Developer</h1>
-  </p>
 </div>
 <!--END_SECTION:header-->
 
@@ -35,6 +34,18 @@
     <li>
       <h4>Criando um Gerador de QR Codes para E-commerces com Node.js</h4>
       <p>Projeto construído com o conhecimento aprendido no módulo <strong>Gerenciando Pacotes com Node.js com NPM</strong></p>
+    </li>
+    <li>
+      <h4>Podcast Manager com Node.js</h4>
+      <p>Projeto construído com o conhecimento aprendido no módulo <strong>Criando APIs com Node.js</strong></p>
+    </li>
+    <li>
+      <h4>Minimal API de Fórmula 1 com Node.js</h4>
+      <p>Projeto construído com o conhecimento aprendido no módulo <strong>Criando APIs com Node.js</strong></p>
+    </li>
+    <li>
+      <h4>Champions League com Node.js</h4>
+      <p>Projeto construído com o conhecimento aprendido no módulo <strong>Criando APIs com Node.js</strong></p>
     </li>
   </ol>
 </div>

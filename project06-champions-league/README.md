@@ -1,7 +1,7 @@
 <!--START_SECTION:header-->
-<div align="center">
-  <h1 align="center">Champions League</h1>
-</div>
+<section align="center">
+  <h1>Champions League</h1>
+</section>
 <!--END_SECTION:header-->
 <br />
 
@@ -42,9 +42,11 @@
 <!--START_SECTION:footer-->
 <br/>
 <br/>
-<p align="center">
-  ⌨️ Made by Ana Valeska in Dio's Course
-</p>
+<section align="center">
+  <p>
+    ⌨️ Made by Ana Valeska in Dio's Course
+  </p>
+</section>
 <br />
 <br />
 
