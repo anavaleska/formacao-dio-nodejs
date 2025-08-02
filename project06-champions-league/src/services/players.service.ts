@@ -1,10 +1,17 @@
 import type { Player } from "../interfaces/player.interface";
 import {
   createPlayer,
+  deletePlayer,
   findAllPlayers,
   findPlayerById,
 } from "../repositories/player.repository";
-import { badRequest, created, notFound, ok } from "../utils/http-helper";
+import {
+  badRequest,
+  created,
+  noContent,
+  notFound,
+  ok,
+} from "../utils/http-helper";
 
 export const getAllPlayersService = async () => {
   const data = await findAllPlayers();
@@ -34,4 +41,17 @@ export const createPlayerService = async (player: Player) => {
   }
   await createPlayer(player);
   return created();
+};
+
+export const deletePlayerService = async (id: number) => {
+  const data = await findPlayerById(id);
+
+  if (!data) {
+    return await notFound({
+      error: "Player not found.",
+    });
+  }
+
+  await deletePlayer(data.id);
+  return await noContent();
 };

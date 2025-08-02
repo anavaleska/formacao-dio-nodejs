@@ -320,3 +320,8 @@ export const findPlayerById = async (
 export const createPlayer = async (player: Player) => {
   database.push(player);
 };
+
+export const deletePlayer = async (id: number) => {
+  const indexPlayer = database.findIndex((player) => player.id === id);
+  database.splice(indexPlayer, 1);
+};

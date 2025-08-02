@@ -3,6 +3,7 @@ import {
   createPlayerService,
   getAllPlayersService,
   getPlayerByIdService,
+  deletePlayerService,
 } from "../services/players.service";
 import { badRequest } from "../utils/http-helper";
 
@@ -25,4 +26,10 @@ export const createPlayer = async (request: Request, response: Response) => {
     return response.status(result.statusCode).json(result.body);
   }
   return response.status(httpResponse.statusCode).json(httpResponse.body);
+};
+
+export const deletePlayer = async (request: Request, response: Response) => {
+  const id = parseInt(request.params.id);
+  const httpResponse = await deletePlayerService(id);
+  return response.status(httpResponse.statusCode).json();
 };
