@@ -1,4 +1,5 @@
 import type { Player } from "../interfaces/player.interface";
+import type { Statistics } from "../interfaces/statistics.interface";
 
 const database: Player[] = [
   {
@@ -307,6 +308,10 @@ const database: Player[] = [
   },
 ];
 
+export const createPlayer = async (player: Player) => {
+  database.push(player);
+};
+
 export const findAllPlayers = async (): Promise<Player[]> => {
   return database;
 };
@@ -317,11 +322,20 @@ export const findPlayerById = async (
   return database.find((player) => player.id === id);
 };
 
-export const createPlayer = async (player: Player) => {
-  database.push(player);
+export const updatePlayer = async (
+  id: number,
+  data: Statistics
+): Promise<Player> => {
+  const playerIndex = database.findIndex((player) => player.id === id);
+  if (playerIndex !== -1) {
+    database[playerIndex].statistics = data;
+  }
+  return database[playerIndex];
 };
 
 export const deletePlayer = async (id: number) => {
-  const indexPlayer = database.findIndex((player) => player.id === id);
-  database.splice(indexPlayer, 1);
+  const playerIndex = database.findIndex((player) => player.id === id);
+  if (playerIndex !== -1) {
+    database.splice(playerIndex, 1);
+  }
 };
